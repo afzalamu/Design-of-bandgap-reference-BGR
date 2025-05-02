@@ -179,6 +179,8 @@ This confirms CTAT behavior.
   ```
   .step temp -40 125 1
   ```
+  ![image](https://github.com/user-attachments/assets/d2c5cc05-72a7-4deb-867a-f67698a9318b)
+
 
 ### Output:
 
