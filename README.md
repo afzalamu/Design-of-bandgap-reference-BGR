@@ -7,6 +7,7 @@ This repository documents my learning journey into designing **Bandgap Reference
 ## 🔧 Block Diagram Overview
 
 A **Bandgap Reference (BGR)** is a temperature-independent voltage source, essential for robust analog and mixed-signal circuits.
+![image](https://github.com/user-attachments/assets/24a2fd01-15dc-44a0-9c22-aa5387248a35)
 
 ### 🧠 Conceptual Block Diagram
 
@@ -19,13 +20,14 @@ V_CTAT → α2 Gain → -
 ```
 
 ---
+![image](https://github.com/user-attachments/assets/51b79020-4c58-4f5e-92c9-dd09882ff50d)
 
 ## 📝 What is a Bandgap Reference?
 
 A **Bandgap Reference (BGR)** provides a stable voltage (\~1.2 V) that is independent of **temperature**, **supply voltage**, and **process variations**.
 
 ### 📌 Applications of BGR:
-
+It is used almost in every IC
 * Analog-to-Digital Converters (**ADCs**)
 * Digital-to-Analog Converters (**DACs**)
 * Voltage Regulators
@@ -39,7 +41,7 @@ A **Bandgap Reference (BGR)** provides a stable voltage (\~1.2 V) that is inde
 | Parameter             | Typical Range     |
 | --------------------- | ----------------- |
 | **Temperature**       | –40 °C to +125 °C |
-| **Supply Variations** | ±10% to ±20%      |
+| **Supply Variations** | ±10% to ±20%  (It can vary according to applications) |
 
 These are crucial for **automotive and industrial** reliability.
 
@@ -47,20 +49,23 @@ These are crucial for **automotive and industrial** reliability.
 
 ## 📈 Temperature Dependencies
 
+![image](https://github.com/user-attachments/assets/2cf7f024-0078-4ac1-9c3f-aa5a61776151)
+
+
 ### CTAT – *Complementary to Absolute Temperature*
 
 * **Decreases with temperature**
-* Example: $V_{BE}$ of a diode or BJT
 
 ### PTAT – *Proportional to Absolute Temperature*
 
 * **Increases with temperature**
-* Typically generated using differences in $V_{BE}$
 
 ### ZTAT – *Zero Temperature Coefficient*
 
 * **Flat/constant with temperature**
 * Achieved by combining CTAT and PTAT
+
+
 
 ---
 
@@ -83,6 +88,7 @@ $$
 ---
 
 ## 🧪 CTAT Generation — Circuit Insight
+![image](https://github.com/user-attachments/assets/94ec54e9-04e8-4a48-a8cd-55a4e6dd933f)
 
 ### 🔋 Using a Constant Current Source & Diode
 
@@ -152,6 +158,8 @@ GND ---|  NPN BJT (diode-connected)
 ---
 
 ## 📐 Temperature Coefficient Equation
+![image](https://github.com/user-attachments/assets/e82c5509-0562-48e6-9bf2-47b026e21832)
+
 
 The diode's temperature behavior is governed by:
 
