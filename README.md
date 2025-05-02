@@ -82,11 +82,15 @@ GND ---|  NPN BJT (diode-connected)
   ```plaintext
   .step temp -40 125 1
   ```
-  ![image](https://github.com/user-attachments/assets/9f0f8d03-ab1d-4818-8d9e-02e369cf7333)
+  ![image](https://github.com/user-attachments/assets/1860e76e-75c6-4514-9e4f-d7ebd015cfa8)
+
 
 - **Obtained the CTAT curve** showing a negative slope with temperature.
-![image](https://github.com/user-attachments/assets/cd1645d6-1d08-4b47-aacb-c08136d11a17)
-![image](https://github.com/user-attachments/assets/b54a8b24-26c9-4a44-aab0-492e26918225)
+![image](https://github.com/user-attachments/assets/868c825b-2ef5-4f3a-9563-94ef586bc0ba)
+* Slope Curve:
+![image](https://github.com/user-attachments/assets/777c2d4a-674e-41ed-910f-7bd07dc7d034)
+
+
 
 
 ### 📈 CTAT Curve
